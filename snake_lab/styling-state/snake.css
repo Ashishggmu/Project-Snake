@@ -1,0 +1,39 @@
+body html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-color: rgb(201, 236, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+canvas{
+    box-shadow: black 20px 10px 50px;
+    
+
+}
+#feature-list select{
+    margin: 5px;
+    justify-content: center;
+}
+#feature-list select {
+    font-family: 'Klee One', cursive;
+}
+.input{
+    
+    margin: 6px;
+    
+}
+.input input{
+    margin-right: 5px;
+}
+.title{
+    font-family: 'Rampart One', cursive;
+    
+}
+#bgColor, #color {
+    font-family: 'Klee One', cursive;
+}
