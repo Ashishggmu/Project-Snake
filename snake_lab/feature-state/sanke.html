@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Board Lab</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <h1>Snake Lab: Feature State</h1>
+    
+    <div id="feature-list">
+        <select id="speed">
+            <option >Speed</option>
+            <option value="1">20</option>
+            <option value="2" selected="selected">12</option>
+            <option value="3"> 3</option>
+            <option value="4">1</option>
+          </select>
+
+          <select id="dimension">
+            <option >Board Size</option>
+            <option value="1">1000*1000</option>
+            <option value="2">500*500</option>
+            <option value="3">150*150</option>
+            <option value="4">50*50</option>
+          </select>
+
+          <select id="snakeColor">
+            <option >Color</option>
+            <option value="1">"Yellow"</option>
+            <option value="2">"Green"</option>
+            <option value="3">"Purple"</option>
+            <option value="4">"Red"</option>
+            <option value="5">"White"</option>
+            <option value="6">"Blue"</option>
+            <option value="7">"Grey"</option>
+            <option value="8">"Brown"</option>
+            <option value="9">"Orange"</option>
+          </select>
+
+          <select id="appleColor">
+            <option >Color</option>
+            <option value="1">"Blue"</option>
+            <option value="2">"Green"</option>
+            <option value="3">"Purple"</option>
+            <option value="4">"Red"</option>
+            <option value="5">"White"</option>
+            <option value="6">"Yellow"</option>
+            <option value="7">"Grey"</option>
+            <option value="8">"Brown"</option>
+            <option value="9">"Orange"</option>
+          </select>
+    </div>
+    <div>
+        <input type="text" id="bgColor" value="Type color code here.">
+        <button id="color" onclick="setBg()">Change Color</button>
+    </div>
+        
+            <canvas id="game"  style="border:1px solid #000000;"></canvas>
+        
+            <script src="snake.js"></script>
+            
+</body>
+
+</html>
